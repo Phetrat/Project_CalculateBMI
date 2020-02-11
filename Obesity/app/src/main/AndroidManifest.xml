@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a5735512043.obesity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BmiActivity" />
+        <activity android:name=".FoodListActivity" />
+        <activity android:name=".FoodsActivity" />
+        <activity android:name=".LineListActivity" />
+        <activity android:name=".FruitListActivity" />
+        <activity android:name=".SnackListActivity" />
+        <activity android:name=".ExerciseListActivity" />
+        <activity android:name=".PostDetailActivity" />
+        <activity
+            android:name=".AddListActivity"
+            android:parentActivityName=".FoodListActivity" />
+        <activity
+            android:name=".AddLineActivity"
+            android:parentActivityName=".LineListActivity" />
+        <activity
+            android:name=".AddFruitActivity"
+            android:parentActivityName=".FruitListActivity" />
+        <activity
+            android:name=".AddSnackActivity"
+            android:parentActivityName=".SnackListActivity" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".TableFoodActivity" />
+        <activity android:name=".TableFatActivity" />
+        <activity android:name=".FoodforyouActivity" />
+        <activity android:name=".CaloriesActivity" />
+        <activity android:name=".BmiFoodActivity" />
+        <activity android:name=".Table_Egg_Activity" />
+        <activity android:name=".Table_Egg_II_Activity" />
+        <activity android:name=".Table_Egg_III_Activity" />
+        <activity android:name=".Table_Egg_IV_Activity" />
+        <activity android:name=".Table_Fruit_Activity" />
+        <activity android:name=".Table_Fruit_II_Activity" />
+        <activity android:name=".Table_Fruit_IIIActivity" />
+        <activity android:name=".Table_Fruit_IV_Activity" />
+        <activity android:name=".Table_Rice_Activity" />
+        <activity android:name=".Table_Rice_II_Activity" />
+        <activity android:name=".Table_Rice_III_Activity" />
+        <activity android:name=".Table_Rice_IV_Activity" />
+        <activity android:name=".Table_Water_Activity" />
+        <activity android:name=".Table_Water_II_Activity" />
+        <activity android:name=".Table_Water_III_Activity" />
+        <activity android:name=".Table_Water_IV_Activity"></activity>
+    </application>
+
+</manifest>

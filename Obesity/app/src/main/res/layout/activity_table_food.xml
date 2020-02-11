@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_table_food"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="top|center"
+    android:background="@drawable/bg"
+    tools:context="com.example.a5735512043.obesity.TableFoodActivity">
+
+    <Button
+        android:id="@+id/btnAgg"
+        android:text="การทานไข่เป็นหลัก"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#f2ff"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnDiet"
+        android:text=""
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#f2ff"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_add_fruit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="3dp"
+    android:paddingTop="5dp"
+    android:background="@drawable/bg"
+    tools:context="com.example.a5735512043.obesity.AddFruitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/fruitNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ใส่ชื่อเมนูอาหาร..."
+            android:singleLine="true"
+            android:background="#ffffff"
+            android:padding="10dp"
+            />
+        <ImageView
+            android:id="@+id/fruitImageTv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/image"
+            android:background="@color/colorPrimary"
+            />
+        <EditText
+            android:id="@+id/fruitDescrEt"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="จำนวนแคลต่ออาหาร..."
+            android:minHeight="100dp"
+            android:background="#ffffff"
+            android:gravity="top"/>
+        <Button
+            android:id="@+id/fruitUploadBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="เพิ่มเมนู"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_gravity="end"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
